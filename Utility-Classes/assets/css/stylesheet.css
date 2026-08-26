@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../../assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #c8c8c8;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.products-container {
+    width: 345px;
+    margin: 52px auto 0;
+}
+
+.product-card {
+    width: 345px;
+    height: 193px;
+    background-color: #d6d6d6;
+
+    border: 2px solid #c3c3c3;
+
+    padding: 17px 26px 26px;
+
+    text-align: center;
+
+    margin-bottom: 17px;
+}
+
+.product-card:last-child {
+    margin-bottom: 0;
+}
+
+.product-card hr {
+    width: 291px;
+    height: 2px;
+
+    margin: 8px 0 19px;
+
+    border: 0;
+    background-color: #bdbdbd;
+
+    opacity: 1;
+}
+
+.product-card h5 {
+    margin: 0 0 11px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.product-card p {
+    margin: 0 0 16px;
+
+    color: #666666;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.price {
+    width: 291px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price-blue {
+    background-color: #1764d1;
+    color: #ffffff;
+}
+
+.price-green {
+    background-color: #147548;
+    color: #ffffff;
+}
+
+.price-yellow {
+    background-color: #d8a300;
+    color: #222222;
+}
